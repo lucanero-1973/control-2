@@ -1,0 +1,32 @@
+body{
+    background-color:$color-fondo;
+    color:$color-text;
+    font-family:$font-type;
+   
+}
+
+//-display flex para el título y el logo para que se alieen en la misma linea
+.izq__titulo{
+    display: flex;
+    align-items: center;
+
+}
+
+.titulo__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.izq__tit{
+    margin: 5px;
+    padding: 5px;
+}
+//-color para el párrafo
+.parrafo__texto{
+    color:$color-parrafo;
+}
+
+.asidebar__imagen{
+    margin: 5px;
+}

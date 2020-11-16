@@ -1,0 +1,28 @@
+//- Variables
+include ../config/config
+//- Mixins
+
+
+<!DOCTYPE html>
+html(lang="es")
+    head
+        //- HEAD
+        block head
+            include head.pug
+
+    //- BODY
+    body
+
+        //- HEADER
+        header.header
+            include header.pug
+
+        //- MAIN
+        main.main
+            block main
+        
+        //- ASIDEBAR
+        asidebar.asidebar
+            include asidebar.pug
+
+            

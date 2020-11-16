@@ -1,0 +1,11 @@
+//tamaño y color del boton en archivo _boton
+.boton__parrafo{
+    width: 30px;
+    height: 15px;
+    text-decoration: none;
+    background-color: $color-boton;
+    color:$color-text;
+    padding:0.6rem;
+    border-radius:8px;
+    font-weight:bold;
+}
